@@ -75,7 +75,7 @@ export default function Hero({
           transition={{ duration: 0.9, delay: 0.08, ease: EASE }}
           className="mt-9 font-display text-[11px] uppercase tracking-[0.4em] text-neutral-400"
         >
-          Welcome back to
+          Welcome  to
         </motion.p>
 
         <motion.h1
