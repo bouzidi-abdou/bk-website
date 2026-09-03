@@ -69,19 +69,6 @@ export default function Hero({
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, ease: EASE }}
-          className="inline-flex items-center gap-2.5 rounded-full border border-neutral-200 bg-white/70 px-4 py-2 text-xs font-black text-neutral-600 shadow-sm backdrop-blur dark:border-white/10 dark:bg-white/5 dark:text-neutral-300"
-        >
-          <span className="relative flex size-2">
-            <span className="absolute inline-flex size-full animate-ping rounded-full bg-emerald-400 opacity-60" />
-            <span className="relative inline-flex size-2 rounded-full bg-emerald-500" />
-          </span>
-          المتجر متاح الآن — توصيل فوري عبر ديسكورد
-        </motion.div>
-
         <motion.p
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
