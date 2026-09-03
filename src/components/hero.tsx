@@ -87,18 +87,7 @@ export default function Hero({
           BK MARKET
         </motion.h1>
 
-        <motion.div
-          initial={{ opacity: 0, y: 28 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.22, ease: EASE }}
-          className="mx-auto mt-8 flex max-w-md items-center gap-4"
-        >
-          <span className="h-px flex-1 bg-gradient-to-r from-transparent to-neutral-300 dark:to-white/20" />
-          <span className="grid size-8 place-items-center rounded-full border border-neutral-200 text-accent dark:border-white/15">
-            <DiscordIcon className="size-4" />
-          </span>
-          <span className="h-px flex-1 bg-gradient-to-l from-transparent to-neutral-300 dark:to-white/20" />
-        </motion.div>
+        
 
         <motion.h2
           initial={{ opacity: 0, y: 28 }}
